@@ -1,6 +1,7 @@
 /*section strenghts*/
 .strenghts {
         /*background: url("../images/Без\ имени-2.png") center no-repeat;*/
+        width: 100%;
         height: 630px;
         padding: 170px 0;
         background-color: black;
@@ -19,6 +20,7 @@
 
 .strengths_list {
     /*background: url("../images/");*/
+    width: 100%;
     padding: 50px 2rem;
     background: #333;
     display: grid;
