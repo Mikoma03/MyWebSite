@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
 header {
     width: 100%;
     padding: 0 4rem;
@@ -80,7 +82,6 @@ nav a, nav label {
     transition: color .1s linear;
     background: none;
     border: none;
-    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     cursor: pointer;
@@ -125,21 +126,28 @@ body {
     width: 100vw;
     overflow-x: hidden; /*Hide horizontal scrollbar*/
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     color: white;
     line-height: 1.6;
+    display: flex;
+    flex-direction: column;
 }
 
-*, *:before, *:after {
-    box-sizing: border-box;
+body > * {
+    width: 100vw;
 }
+
+*:not(.fab), *:not(.fab):before, *:not(.fab):after {
+    box-sizing: border-box;
+    font-family: "Comfortaa";
+}
+
 
 /* Intro */
 .intro {
     width: 100%;
     height: 100vh;
-    
+
     background-color: #333;
     background-size: cover;
     display: flex;
@@ -164,7 +172,6 @@ body {
     color: #fff;
     font-size: 72px;
     font-family: 'Kaushan Script', cursive;
-
     position: absolute;
     left: 7rem;
     bottom: 13rem;
@@ -173,9 +180,21 @@ body {
 /*Welcome*/
 .welcome {
     /*background: url("../images/Без\ имени-2.png") center no-repeat;*/
-    height: 630px;
     background-color: black;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.welcome .transition {
+    color: white;
+    font-size: 84px;
+    cursor: default;
+    padding: 18vh;
+    right: 0;
+    left: 0;
 }
 
 .welcome .header {
@@ -188,27 +207,15 @@ body {
 .welcome .title {
     color: white;
     font-size: 74px;
-    font-family: Robotic;
     cursor: default;
 }
 
 .welcome .subtitle {
     color: white;
     font-size: 18px;
-    font-family: Robotic;
     cursor: default;
 }
 
-.welcome .transition {
-    color: white;
-    font-size: 84px;
-    font-family: Robotic;
-    cursor: default;
-    
-    margin: 200px 0px 0px 0px;
-    right: 0;
-    left: 0;
-}
 
 /* GitHub link*/
 .GitHub_link {
@@ -222,55 +229,6 @@ body {
     text-decoration: underline;
 }
 
-/*section contact*/
-.contact {
-    padding: 50px 0;
-    background: #333;
-}
-
-.contact .join {
-    color: white;
-    font-size: 32px;
-    font-family: Robotic;
-    cursor: default;
-
-    display: flex;
-    justify-content: center;
-    padding: 0 0 7rem;
-}
-
-.contact .container {
-    display: flex;
-    align-items: center;
-    padding: 0 20rem;
-    gap: 3rem;
-}
-
-.contact .image {
-    height: 370px;
-    width: 610px;
-}
-
-.contact .title {
-    color: white;
-    font-size: 64px;
-    font-family: Robotic;
-    cursor: default;
-
-    position: absolute;
-    height: 21rem;
-    right: 46rem;
-}
-
-.contact .info {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact .right {
-    padding: 0 0 30px 30px;
-}
-
 .info .title {
     font-size: 64px;
 }
@@ -278,12 +236,19 @@ body {
 .info .default {
     color: white;
     font-size: 16px;
-    font-family: Robotic;
     cursor: default;
 }
 
-@media screen and (max-width: 800px) {
-    section.skill .container {
-        flex-direction: column !important;
-    }
+.section {
+    color: white;
+    font-size: 74px;
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    padding: 40vmin 0 20vmin 0;
+    background: black;
+}
+
+.section.projects {
+    padding-top: 20vh
 }

@@ -1,0 +1,52 @@
+
+.strengths_list {
+    /*background: url("../images/");*/
+    width: 100%;
+    padding: 2rem 4rem;
+    background: #333;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    justify-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .strengths_list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .strengths_list {
+        grid-template-columns: 1fr;
+    }
+}
+
+.strengths_list > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #555;
+    border-radius: 1rem;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.strengths_list img {
+    width: 200px;
+}
+
+.strengths_list .title {
+    text-align: center;
+    font-size: 26px;
+    height: 90px;
+}
+
+.strengths_list .description {
+    font-size: 16px;
+    text-indent: 1.5em; /* Отступ первой строки */
+    text-align: justify; /* Выравнивание по ширине */
+    padding: 1rem;
+}

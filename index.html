@@ -5,281 +5,267 @@
 
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/projects.css">
-    <link rel="stylesheet" href="assets/css/strenghts.css">
-    <link rel="stylesheet" href="assets/css/career.css">
-    <link rel="stylesheet" href="assets/css/about_me.css">
-    <!--<meta name="viewport" content="width=device-width,initial-scale=1"/>-->
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext"rel="stylesheet">
-    <script src="https://kit.fontawesome.com/2414ffeffe.js" crossorigin="anonymous"></script>
-    <title>Welcome</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/projects.css">
+	<link rel="stylesheet" href="assets/css/strengths.css">
+	<link rel="stylesheet" href="assets/css/career.css">
+	<link rel="stylesheet" href="assets/css/about_me.css">
+	<!--<meta name="viewport" content="width=device-width,initial-scale=1"/>-->
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/2414ffeffe.js" crossorigin="anonymous"></script>
+	<title>Welcome</title>
 </head>
 <body>
 <header>
-    <a href="#" class="logo">MyLOGO</a>
-    <nav>
-        <a href="#">Home</a>
-        <label for="projects">Projects</label>
-        <label for="careers">Careers</label>
-        <a href="#">About Me</a>
+	<a href="#" class="logo">MyLOGO</a>
+	<nav>
+		<a href="#">Home</a>
+		<label for="projects">Projects</label>
+		<label for="careers">Careers</label>
+		<a href="#">About Me</a>
 
-        <input type="checkbox" id="projects">
-        <input type="checkbox" id="careers">
+		<input type="checkbox" id="projects">
+		<input type="checkbox" id="careers">
 
-        <div id="switcher">
-            <div for="projects">projects</div>
-            <div for="careers">careers</div>
-            </div>
-    </nav>
-    <div class="social_media">
-        <a href="https://twitter.com/Mikoma022"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.facebook.com/Mikoma03"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/mikoma02/"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-discord"></i></a>
-        </div>
-    </header>
+		<div id="switcher">
+			<div for="projects">projects</div>
+			<div for="careers">careers</div>
+		</div>
+	</nav>
+	<div class="social_media">
+		<a href="https://twitter.com/Mikoma022"><i class="fab fa-twitter"></i></a>
+		<a href="https://www.facebook.com/Mikoma03"><i class="fab fa-facebook-f"></i></a>
+		<a href="https://www.instagram.com/mikoma02/"><i class="fab fa-instagram"></i></a>
+		<a href="#"><i class="fab fa-discord"></i></a>
+	</div>
+</header>
 
-    <script>
-        const cb_p = document.getElementById('projects')
-        const cb_c = document.getElementById('careers')
-        const switcher = document.getElementById('switcher')
-        switcher.onclick = () => cb_c.checked = cb_p.checked = false
-    </script>
+<script>
+	const cb_p = document.getElementById('projects')
+	const cb_c = document.getElementById('careers')
+	const switcher = document.getElementById('switcher')
+	switcher.onclick = () => cb_c.checked = cb_p.checked = false
+</script>
 
-    <div class="intro">
-        <span id="welcome">Welcome to my WebSite</span>
-        <span class="title">I'm enjoying to build beautiful WebSites and UI</span>     
-    </div>
+<div class="intro">
+	<div id="welcome">Welcome to my WebSite</div>
+	<div class="title">I'm enjoying to build beautiful WebSites and UI</div>
+</div>
 
-    <section class="welcome">
-        <div class="header">
-            <span class="title">Learn More</span>
-            <span class="subtitle">Want to see more of my work? Check out my projects on 
-            <a href="https://github.com/Mikoma03" class="GitHub_link">GitHub.</a></span>
-            <span class="transition">Projects</span>
-        </div>      
-    </section>
+<div class="welcome">
+	<div class="title">Learn More</div>
+	<div class="subtitle">
+		Want to see more of my work? Check out my projects on
+		<a href="https://github.com/Mikoma03" class="GitHub_link">GitHub</a>
+	</div>
+</div>
+<div class="section projects">Projects</div>
 
+<div class="skill Lazarus">
+	<div class="container">
+		<img src="assets/images/logo_lazarus.png" alt="LazarusIcon">
+		<div class="with_quotation">
+			For the first time when I started to really program, I was introduced to the program called Lazarus.
+			Pascal-based program using strongly typed Delphi language gave me great joy, my first projects were done here.
+		</div>
+		<div class="sub">
+			<div class="author">© Dmitry Larkin</div>
+			<div class="subauthor">WebDev</div>
+		</div>
+	</div>
+</div>
 
-<section id="project" class="skill Lazarus">
-        <div class="container">
-        <img class="icon" src="../MyWebSite/assets/images/Lazarus-logo.jpg" alt="LazarusIcon">
-        <div class="with_quotation">
-            For the first time when I started to really program, I was introduced to the program called Lazarus.
-            Pascal-based program using strongly typed Delphi language gave me great joy, my first projects were done here.
-            <div class="sub">
-                <span class="author">© Dmitry Larkin</span>
-                <span class="subauthor">WebDev</span>
-            </div>
-            </div>
-        </div>
-    </section>
+<div class="skill GameMakerStudio2">
+	<div class="container reverse">
+		<img src="assets/images/logo_gamemaker.png" alt="GameMakerIcon">
+		<div class="with_quotation">
+			Game Maker Studio 2 is a very simple and beautiful program for
+			creating pixel games using a built-in programming language called game maker language which is basically
+			pure English. Extremely easy to learn but very demanding in terms of organization, an excellent program
+			and engine on which I first started doing my projects.
+		</div>
+		<div class="sub">
+			<div class="author">© Dmitry Larkin</div>
+			<div class="subauthor">WebDev</div>
+		</div>
+	</div>
+</div>
 
+<div class="skill UnrealEngine">
+	<div class="container">
+		<img src="assets/images/logo_unreal.png" alt="UnrealEngineIcon">
+		<div class="with_quotation">
+			Unreal Engine 4 is the game engine on which I started programming and
+			working with 3D projects. I had a rather narrow responsibility, namely the design and reconstruction of
+			3D models of objects and the creation of a graphical user interface.
+		</div>
+		<div class="sub">
+			<div class="author">© Dmitry Larkin</div>
+			<div class="subauthor">WebDev</div>
+		</div>
+	</div>
+</div>
 
-<section id="project" class="skill GameMakerStudio2">
-    <div class="container reverse">
-        <img class="icon" src="../MyWebSite/assets/images/gamemaker-icon.jpg" alt="GameMakerIcon">
-        <div class="with_quotation">
-            Game Maker Studio 2 is a very simple and beautiful program for
-            creating pixel games using a built-in programming language called game maker language which is basically
-            pure English. Extremely easy to learn but very demanding in terms of organization, an excellent program
-            and engine on which I first started doing my projects.
-            <div class="sub">
-                <span class="author">© Dmitry Larkin</span>
-                <span class="title">WebDev</span>
-            </div>
-            </div>
-        </div>
-    </section>
-
-
-<section class="skill UnrealEngine">
-        <div class="container">
-        <img class="icon" src="../MyWebSite/assets/images/Unreal_Engine-Logo.png" alt="UnrealEngineIcon">
-        <div class="with_quotation">
-            Unreal Engine 4 is the game engine on which I started programming and
-            working with 3D projects. I had a rather narrow responsibility, namely the design and reconstruction of
-            3D models of objects and the creation of a graphical user interface.
-            <div class="sub">
-                <span class="author">© Dmitry Larkin</span>
-                <span class="title">WebDev</span>
-            </div>
-            </div>
-        </div>
-    </section>
-
-
-<section class="skill Blender">
-        <div class="container reverse">
-        <img class="icon" src="../MyWebSite/assets/images/blender_logo.png" alt="BlenderIcon">
-        <div class="with_quotation">
-            Of course, if I work with 3d models and a graphical interface, then I use
-            more than one tool for this. Of all, it was Blender that I liked the most and, of course, I suggest
-            looking at my work.You would like it.
-            <div class="sub">
-                <span class="author">© Dmitry Larkin</span>
-                <span class="title">WebDev</span>
-            </div>
-            </div>
-        </div>
-    </section>
+<div class="skill Blender">
+	<div class="container reverse">
+		<img src="assets/images/logo_blender.png" alt="BlenderIcon">
+		<div class="with_quotation">
+			Of course, if I work with 3d models and a graphical interface, then I use
+			more than one tool for this. Of all, it was Blender that I liked the most and, of course, I suggest
+			looking at my work.You would like it.
+		</div>
+		<div class="sub">
+			<div class="author">© Dmitry Larkin</div>
+			<div class="subauthor">WebDev</div>
+		</div>
+	</div>
+</div>
 
 
+<div class="section career">My Career</div>
 
-    <section class="career">
-        <div class="header">
-            <span class="transition">My Career</span>
-        </div>
-    </section>  
-    
-    
-    <section class="career_text">
-        <div class="header">
-            <span class="default">I have a strong interest in many topics in UI development
-                environments as well as software engineering. For about 5 years I have been touching these topics and
-                studying them, at the same time creating beautiful and, most importantly, high-quality user interfaces
-                for various software.</span>
-                <div class="with_quotation quotation">“The job of a programmer is problem solving”</div>
-            <span class="default">I am a professional person who is able to work both on site and
-                remotely. Extremely stable physically and especially mentally. I'm always looking my condition in order
-                to have the maximum return for working with people.</span>
-            <span class="default">I like to work in organized teams whether we do it remotely or not.</span>
-        </div>
-        <!--<div class="images">
-        <img class="image" src="../MyWebSite/assets/images/Lazarus-logo.jpg" alt="career_section_image">
-        <img class="image" src="../MyWebSite/assets/images/Lazarus-logo.jpg" alt="career_section_image">
-        <img class="image" src="../MyWebSite/assets/images/Lazarus-logo.jpg" alt="career_section_image">
-        <img class="image" src="../MyWebSite/assets/images/Lazarus-logo.jpg" alt="career_section_image">
-        </div> -->
-    </section>
-    
-
-    <section class="strenghts">
-        <div class="header">
-            <span class="transition">Strengths</span>
-        </div>
-    </section>
+<div class="career_text">
+	<div>
+		<div class="header">
+			<div class="default">
+				I have a strong interest in many topics in UI development environments as well as software engineering.
+				For about 5 years I have been touching these topics and studying them,
+				at the same time creating beautiful and, most importantly, high-quality
+				user interfaces for various software.
+			</div>
+			<div class="with_quotation quotation"><q>The job of a programmer is problem solving</q></div>
+			<div class="default">
+				I am a professional person who is able to work both on site and remotely.
+				Extremely stable physically and especially mentally.
+				I'm always looking my condition in order to have the maximum return for working with people.
+			</div>
+			<div class="default">I like to work in organized teams whether we do it remotely or not.</div>
+		</div>
+	</div>
+</div>
 
 
-    <section class="strengths_list">
-            <div class="header">
-        <img class="icon" src="../MyWebSite/assets/images/pc-with-globe.png" alt="Problem Solving Picture">
-        <span class="title"><strong>Analytical mindset, persistence and teamwork</strong></span>
-        <span class="description">I like to solve the most complex problems simply and efficiently, I
-            am ready to spend thousands of hours programming and sometimes solving puzzling problems, the most
-            problematic problems require a collective solution, which is not a problem for me, since I write clean
-            and understandable code that I can also present.</span>
-            </div>
+<div class="section strengths">Strengths</div>
+
+<div class="strengths_list">
+	<div>
+		<img src="assets/images/pc_with_globe.png" alt="Problem Solving Picture">
+		<div class="title"><strong>Analytical mindset, persistence and teamwork</strong></div>
+		<div class="description">
+			I like to solve the most complex problems simply and efficiently,
+			I am ready to spend thousands of hours programming and sometimes solving puzzling problems,
+			the most problematic problems require a collective solution,
+			which is not a problem for me, since I write clean
+			and understandable code that I can also present.
+		</div>
+	</div>
+
+	<div>
+		<img src="assets/images/pc_with_globe.png" alt="Manner of thought Picture">
+		<div class="title">Remotely Work</div>
+		<div class="description">
+			I prefer to work like a professional in a very organized, precise and efficient manner.
+			Thanks to this manner of work, I am able to work both on site and remotely.
+			Among other things, while working with me, you can not worry about keeping trade
+			secrets and trust me with important work both on site and remotely.
+		</div>
+	</div>
+
+	<div>
+		<img src="assets/images/pc_with_globe.png" alt="Leadership Skills Picture">
+		<div class="title">Responsibility, communicable and initiative</div>
+		<div class="description">
+			I am a very responsible person when it comes to getting things done
+			on time, I am proactive with good ideas and my Soft Skills are pushed to the limit.
+			Modern development is a team work and I think that everyone should be able to find
+			a common language with colleagues and partners, negotiate, effectively present their ideas,
+			speak well in front of a large audience and manage their time.
+		</div>
+	</div>
+
+	<div>
+		<img src="assets/images/pc_with_globe.png" alt="Watch picture">
+		<div class="title">Flexibility and Punctuality</div>
+		<div class="description">
+			Flexibility and punctuality is one of my main qualities.
+			I am a time watcher and am never late without a critically good reason.
+			I also appreciate and understand when and how much I need to work.
+		</div>
+	</div>
+
+	<div>
+		<img src="assets/images/pc_with_globe.png" alt="Learing and Working picture">
+		<div class="title">Learning and Working</div>
+		<div class="description">
+			"Live and learn" is a wise phrase that makes me feel better every day.
+			Every day is a lesson from which everyone must learn something.
+			Learn and put your knowledge into practice!
+		</div>
+	</div>
+
+	<div>
+		<img src="assets/images/pc_with_globe.png" alt="Remotely work picture">
+		<div class="title">Good concentration and algorithmic approach</div>
+		<div class="description">
+			I am a process oriented person with a focus on details,
+			with an algorithmic approach and an analytical mindset.
+			I am sure that I can solve any problem that requires an algorithmic mindset.
+		</div>
+	</div>
+</div>
 
 
-            <div class="header">
-        <img class="icon" src="../MyWebSite/assets/images/pc-with-globe.png" alt="Manner of thought Picture">
-        <span class="title">Remotely Work</span>
-        <span class="description">I prefer to work like a professional in a very organized, precise
-            and efficient manner. Thanks to this manner of work, I am able to work both on site and remotely. Among
-            other things, while working with me, you can not worry about keeping trade secrets and trust me with
-            important work both on site and remotely.</span>
-            </div>
+<div class="section about">About me</div>
 
+<div class="about_list">
+	<div>
+		<img src="assets/images/background_blender.png" alt="Who am I_media">
+		<div class="title">Who am I</div>
+		<div class="speech">
+			Unreal Engine 4 is the game engine on which I started programming and
+			working with 3D projects. I had a rather narrow responsibility, namely the design and reconstruction of
+			3D models of objects and the creation of a graphical user interface.
+		</div>
+	</div>
 
-            <div class="header">
-        <img class="icon" src="../MyWebSite/assets/images/pc-with-globe.png" alt="Leadership Skills Picture">
-        <span class="title">Responsibility, communicable and initiative</span>
-        <span class="description">I am a very responsible person when it comes to getting things done
-            on time, I am proactive with good ideas and my Soft Skills are pushed to the limit. Modern development
-            is a team work and I think that everyone should be able to find a common language with colleagues and
-            partners, negotiate, effectively present their ideas, speak well in front of a large audience and manage
-            their time.</span>
-            </div>
+	<div class="reverse">
+		<img src="assets/images/background_blender.png" alt="What I do_media">
+		<div class="title">What I do</div>
+		<div class="speech">
+			Unreal Engine 4 is the game engine on which I started programming and
+			working with 3D projects. I had a rather narrow responsibility, namely the design and reconstruction of
+			3D models of objects and the creation of a graphical user interface.
+		</div>
+	</div>
 
+	<div>
+		<img src="assets/images/background_blender.png" alt="Where am I_media">
+		<div class="title">Where am I</div>
+		<div class="speech">
+			Unreal Engine 4 is the game engine on which I started programming and working with 3D projects.
+			I had a rather narrow responsibility, namely the design and reconstruction of
+			3D models of objects and the creation of a graphical user interface.
+		</div>
+	</div>
+</div>
 
-            <div class="header">
-        <img class="icon" src="../MyWebSite/assets/images/pc-with-globe.png" alt="Watch picture">
-        <span class="title">Flexibility and Punctuality</span>
-        <span class="description">Flexibility and punctuality is one of my main qualities. I am a time
-            watcher and am never late without a critically good reason. I also appreciate and understand when and
-            how much I need to work.</span>
-            </div>
-
-
-            <div class="header">
-        <img class="icon" src="../MyWebSite/assets/images/pc-with-globe.png" alt="Learing and Working picture">
-        <span class="title">Learning and Working</span>
-        <span class="description">"Live and learn" is a wise phrase that makes me feel better every
-            day. Every day is a lesson from which everyone must learn something. Learn and put your knowledge into
-            practice!</span>
-            </div>
-
-
-            <div class="header">    
-        <img class="icon" src="../MyWebSite/assets/images/pc-with-globe.png" alt="Remotely work picture">
-        <span class="title">Good concentration and algorithmic approach</span>
-        <span class="description">I am a process oriented person with a focus on details, with an
-            algorithmic approach and an analytical mindset. I am sure that I can solve any problem that requires an
-            algorithmic mindset.</span>
-        </div>
-
-    </section>
-
-
-    <section class="about">
-        <div class="header">
-            <span class="transition">About me</span>
-        </div>
-    </section>
-
-
-    <section class="about_list">
-        <div class="container">
-        <img class="pic1" src="../MyWebSite/assets/images/Blender-section-background.png" alt="Who am I_media">
-        <span class="title">Who am I</span>
-        <div class="speech">
-            Unreal Engine 4 is the game engine on which I started programming and
-            working with 3D projects. I had a rather narrow responsibility, namely the design and reconstruction of
-            3D models of objects and the creation of a graphical user interface.
-        </div>
-        </div>
-
-        <div class="container reverse">
-            <img class="pic1" src="../MyWebSite/assets/images/Blender-section-background.png" alt="What I do_media">
-            <span class="title">What I do</span>
-            <div class="speech">
-                Unreal Engine 4 is the game engine on which I started programming and
-                working with 3D projects. I had a rather narrow responsibility, namely the design and reconstruction of
-                3D models of objects and the creation of a graphical user interface.
-            </div>
-            </div>
-
-        <div class="container">
-            <img class="pic1" src="../MyWebSite/assets/images/Blender-section-background.png" alt="Where am I_media">
-            <span class="title">Where am I</span>
-            <div class="speech">
-                    Unreal Engine 4 is the game engine on which I started programming and
-                    working with 3D projects. I had a rather narrow responsibility, namely the design and reconstruction of
-                    3D models of objects and the creation of a graphical user interface.
-            </div>
-        </div>
-    </section>
-
-
-    <section class="contact">
-                <span class="join">Want to work with me? I'm open for any contact in my Discord, E-mail and Phone</span>
-            <div class="container">
-                <img class="image" src="../MyWebSite/assets/images/Blender-section-background.png" alt="grass image media">
-                <span class="title">Contact</span>
-                <div class="info">
-                    <span class="default">Edzardstraße 82A</span>
-                    <span class="default">26789 Leer</span>
-                    <span class="default">Germany</span>
-                </div>
-                <div class="info right">
-                    <span class="default">Phone: +49 15 906520522</span>
-                    <span class="default">E-mail: dmitry.larkin@web.de</span>
-                </div>
-            </div>
-    </section>
-    <script src="../MyWebSite/assets/reconstruct.js"></script> <!--Reconstruct the site for mobile devices-->
+<div class="contact">
+	<div class="join">Want to work with me?<br>I'm open for any contact in my Discord, E-mail and Phone</div>
+	<div class="container">
+		<img src="assets/images/background_blender.png">
+		<div class="title">Contact</div>
+		<div>
+			<div>Edzardstraße 82A</div>
+			<div>26789 Leer</div>
+			<div>Germany</div>
+		</div>
+		<div>
+			<div>Phone: +49 15 906520522</div>
+			<div>E-mail: dmitry.larkin@web.de</div>
+		</div>
+	</div>
+</div>
+<!-- Don't disagree with Dmitry! -->
 </body>
 </html>

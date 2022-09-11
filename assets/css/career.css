@@ -1,16 +1,7 @@
-/*section career*/
-.career {
-    /*background: url("../images/")*/
-    width: 100%;
-    height: 630px;
-    background: black;
-    padding: 170px 0;
-}
 
 .career .transition {
     color: white;
     font-size: 74px;
-    font-family: Robotic;
     cursor: default;
 
     display: flex;
@@ -22,13 +13,17 @@
     /*background: url("../images/");*/
     width: 100%;
     background: #333;
-    padding: 3rem 29rem;
+    padding: 3rem 2rem;
+}
+
+.career_text > div {
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 .career_text .default {
     color: white;
     font-size: 16px;
-    font-family: Robotic;
     cursor: default;
     text-align: left;
     line-height: 2;
@@ -37,7 +32,6 @@
 .career_text .quotation {
     color: white;
     font-size: 20px;
-    font-family: Robotic;
     cursor: default;
     text-align: left;
 }
@@ -45,7 +39,6 @@
 .career_text .with_quotation {
     color: white;
     font-size: 20px;
-    font-family: Robotic;
     text-shadow: 0 0 5px black;
     position: relative;
 }
