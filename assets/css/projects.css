@@ -1,21 +1,17 @@
 .Lazarus {
-    background: url("../images/Lazarus-section-background.png")
-}
-
-.skill .icon {
-    width: 330px;
+    background: url("../images/Lazarus-section-background.png");
 }
 
 .GameMakerStudio2 {
-    background: url("../images/GameMakersection-background.png")
+    background: url("../images/GameMakersection-background.png");
 }
 
 .UnrealEngine {
-    background: url("../images/UnrealEngine-section-background.png")
+    background: url("../images/UnrealEngine-section-background.png");
 }
 
 .Blender {
-    background: url("../images/Blender-section-background.png")
+    background: url("../images/Blender-section-background.png");
 }
 
 .skill {
@@ -81,6 +77,84 @@
 }
 
 .skill .with_quotation .sub {
+    color: cornflowerblue;
+    font-weight: bold;
+
+    position: absolute;
+    right: 1rem;
+    bottom: -4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/*----------Style Mobile----------*/
+
+.skill_mobile {
+    width: 100%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
+.skill_mobile .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5rem 3rem;
+    gap: 6rem;
+    height: 100%;
+}
+
+.skill_mobile .container.reverse {
+    flex-direction: row-reverse;
+}
+
+.skill_mobile .container.reverse .with_quotation {
+    padding-left: 2rem;
+}
+
+.skill_mobile .container.reverse .with_quotation:before,
+.skill_mobile .container.reverse .with_quotation {
+    right: unset;
+    left: 1rem;
+    align-items: flex-start;
+}
+
+.skill_mobile .container.reverse .sub {
+    right: unset;
+    align-items: flex-start;
+}
+
+.skill_mobile .icon {
+    width: 330px;
+}
+
+.skill_mobile .with_quotation {
+    color: white;
+    font-size: 20px;
+    font-family: Robotic;
+    text-shadow: 0 0 5px black;
+    position: relative;
+}
+
+.skill_mobile .with_quotation:before {
+    background: url("../images/quotation.png");
+    background-size: 70px 70px;
+    content: " ";
+    height: 70px;
+    width: 70px;
+    display: block;
+    position: absolute;
+    top: -70px;
+    right: 1rem;
+}
+
+.skill_mobile .with_quotation .sub {
     color: cornflowerblue;
     font-weight: bold;
 
