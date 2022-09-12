@@ -67,9 +67,9 @@
 }
 
 .contact .container .title {
-    color: white;
-    font-size: 64px;
-    cursor: default;
+color: white;
+font-size: 64px;
+cursor: default;
     grid-column: 2/4;
 }
 
@@ -80,9 +80,9 @@
 }
 
 .contact .join {
-    color: white;
+color: white;
     font-size: 32px;
-    cursor: default;
+cursor: default;
     text-align: center;
     width: 90vw;
     margin: 0 auto;
