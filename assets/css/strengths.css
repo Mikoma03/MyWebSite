@@ -1,9 +1,14 @@
+.strengths {
+    background: rgba(0, 0, 0, 0.7) url("../images/street2.png") center no-repeat;
+    background-blend-mode: darken;
+}
 
 .strengths_list {
-    /*background: url("../images/");*/
+    background: rgba(0, 0, 0, 0.7) url("../images/breacks_background.png") center;
+    background-blend-mode: darken;
+    /*background: #333;*/
     width: 100%;
     padding: 2rem 4rem;
-    background: #333;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
