@@ -6,11 +6,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="../MyWebSite/assets/css/style.css">
-	<link rel="stylesheet" href="../MyWebSite/assets/css/projects.css">
-	<link rel="stylesheet" href="../MyWebSite/assets/css/strengths.css">
-	<link rel="stylesheet" href="../MyWebSite/assets/css/career.css">
-	<link rel="stylesheet" href="../MyWebSite/assets/css/about_me.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/projects.css">
+	<link rel="stylesheet" href="assets/css/strengths.css">
+	<link rel="stylesheet" href="assets/css/career.css">
+	<link rel="stylesheet" href="assets/css/about_me.css">
 	<!--<meta name="viewport" content="width=device-width,initial-scale=1"/>-->
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/2414ffeffe.js" crossorigin="anonymous"></script>
@@ -29,7 +29,7 @@
 		<input type="checkbox" id="careers">
 
 		<div id="switcher">
-			<div for="projects">projects</div>
+			<label for="projects"><a href="pages/projects/project-postgresql-database/sql.php">PostgreSQL Database</a></label>
 			<div for="careers">careers</div>
 		</div>
 	</nav>
@@ -45,7 +45,7 @@
 	const cb_p = document.getElementById('projects')
 	const cb_c = document.getElementById('careers')
 	const switcher = document.getElementById('switcher')
-	switcher.onclick = () => cb_c.checked = cb_p.checked = false
+	//switcher.onclick = () => cb_c.checked = cb_p.checked = false
 </script>
 
 <div class="intro">
